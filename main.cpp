@@ -30,12 +30,12 @@
 #include <time.h>
 
 // ── WiFi & MQTT ─────────────────────────────────────────────────────────────
-#define WIFI_SSID    "Dickleguest"
-#define WIFI_PASS    "3eSpee32"
-#define MQTT_BROKER  "192.168.1.39"
+#define WIFI_SSID    "YOUR_SSID"
+#define WIFI_PASS    "YOUR_PSW"
+#define MQTT_BROKER  "192.168.x.x"
 #define MQTT_PORT    1883
-#define MQTT_USER    "james"
-#define MQTT_PASS    "I0tdIckleMqtt"
+#define MQTT_USER    "USERNAME"
+#define MQTT_PASS    "PASSWORD"
 
 // ── MQTT topics ──────────────────────────────────────────────────────────────
 #define TOPIC_TEMP      "home/baro/temperature"
